@@ -1,0 +1,22 @@
+#!name=iOS Netflix
+#!desc=iOS Netflix
+
+[General]
+always-real-ip = *netflix*, *nflx*, *onetrust.com, e13252.dscg.akamaiedge.net, *cookielaw.org, *fast.com, *flxvpn.net, *apiproxy-device-prod-nlb-*, *dualstack.apiproxy-*, *dualstack.ichnaea-web-*
+encrypted-dns-follow-outbound-mode = true
+
+[Host]
+*netflix* = server:https://cloudflare-dns.com/dns-query
+*nflx* = server:https://cloudflare-dns.com/dns-query
+*onetrust.com = server:https://cloudflare-dns.com/dns-query
+e13252.dscg.akamaiedge.net = server:https://cloudflare-dns.com/dns-query
+*cookielaw.org = server:https://cloudflare-dns.com/dns-query
+*fast.com = server:https://cloudflare-dns.com/dns-query
+*flxvpn.net = server:https://cloudflare-dns.com/dns-query
+*apiproxy-device-prod-nlb-* = server:https://cloudflare-dns.com/dns-query
+*dualstack.apiproxy-* = server:https://cloudflare-dns.com/dns-query
+*dualstack.ichnaea-web-* = server:https://cloudflare-dns.com/dns-query
+
+DOMAIN-KEYWORD,netflix,Netflix,extended-matching
+DOMAIN-KEYWORD,nflxvideo,Netflix,extended-matching
+PROTOCOL,DOH,Netflix
