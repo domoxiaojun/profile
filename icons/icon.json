@@ -1,10 +1,9 @@
 {
   "name": "Domo icons",
-  "description": "Domo的icon库",
   "icons": [
     {
       "name": "Funmediawb",
-      "url": "https:\/\/raw.githubusercontent.com\/domoxiaojun\/profile\/3cc8342794662f37692476c64135a3ad5759575c\/icons\/funmedia.png"
+      "url": "https://raw.githubusercontent.com/domoxiaojun/profile/main/icons/funmedia.png"
     }
   ]
 }
